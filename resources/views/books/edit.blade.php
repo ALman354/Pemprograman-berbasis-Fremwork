@@ -39,7 +39,7 @@
 
         <p>
             <label for="stock">Stok:</label><br>
-            <input type="number" id="stock" name="stock" min="0" value="{{ old('stock', $book->stock) }}" required>
+            <input type="number" id="stock" name="stock" value="{{ old('stock', $book->stock) }}" required>
         </p>
 
         <button type="submit">Simpan Perubahan</button>
